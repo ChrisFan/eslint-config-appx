@@ -1,22 +1,23 @@
 {
   "name": "eslint-config-appx",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "ESLint config for appx",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
     "eslint",
     "eslintconfig",
     "appx"
   ],
   "license": "MIT",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "peerDependencies": {
     "eslint": "^3.19.0 || ^4.3.0"
   },
   "engines": {
     "node": ">= 4"
+  },
+  "dependencies": {
+    "eslint-plugin-appx": "0.1.x"
   }
 }
